@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 02-Nov-2018 23:01:10 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="dataAccess.Flight" table="FLIGHT">
+        <id name="idflight" type="int">
+            <column name="IDFLIGHT" />
+            <generator class="assigned" />
+        </id>
+        <property name="number" type="java.lang.String">
+            <column name="NUMBER" />
+        </property>
+        <property name="type" type="java.lang.String">
+            <column name="TYPE" />
+        </property>
+        <property name="departureCity" type="java.lang.String">
+            <column name="DEPARTURE_CITY" />
+        </property>
+        <property name="departureDate" type="java.util.Date">
+            <column name="DEPARTURE_DATE" />
+        </property>
+        <property name="arrivalCity" type="java.lang.String">
+            <column name="ARRIVAL_CITY" />
+        </property>
+        <property name="arrivalDate" type="java.util.Date">
+            <column name="ARRIVAL_DATE" />
+        </property>
+    </class>
+</hibernate-mapping>

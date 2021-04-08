@@ -1,0 +1,1 @@
+ Mai intai se ruleaza clasa Login,vom folosi unul din urmatoarele conturi,pentru administrator username:admin,password:admin,iar pentru client: username:user1,password:p1.In functie de acesta vom putea efectua anumite operatii.
