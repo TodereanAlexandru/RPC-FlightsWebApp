@@ -1,0 +1,2 @@
+# RPC-FlightsWebApp
+The purpose of the theme was to design and implement a distributed system, consisting of a web application that interacts with a user if a database used by the application, communication is achieved by using hibernate orm that maps the class to the tables in the database of date. The client is basically the browser that has certain requests via HTTP to the server (application).
